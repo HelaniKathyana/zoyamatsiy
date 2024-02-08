@@ -55,7 +55,7 @@ body {
   color: #41538f;
   font-size: 13px;
   font-weight: 600;
-  line-height: 15px;
+  line-height: 16px;
 }
 
 .wrapper-section-1 {
@@ -83,10 +83,23 @@ body {
   color: #41538f;
   font-weight: normal;
   line-height: 17px;
+  text-align: justify;
 }
 
 .indent {
   margin-left: 30px;
+}
+
+.profile-button-wrapper {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.profile-button {
+  color: #41538f;
+  text-decoration: underline;
+  font-weight: 600;
+  font-size: 15px;
 }
 
 /* ###################################################################### */
@@ -285,14 +298,13 @@ footer .logo-wrapper {
   /* For mobile phones: */
 
   .wrapper-section-1 {
-    padding-top: 15%;
     min-height: 0px;
+    padding: 5%;
   }
 
   .title {
-    text-align: center;
-    font-size: 40px;
-    margin-top: 30px;
+    font-size: 15px;
+    margin: auto;
   }
 
   .section-title {
@@ -306,12 +318,7 @@ footer .logo-wrapper {
   }
 
   .content {
-    font-size: 15px;
-    color: #000080;
-    font-weight: 550;
-    line-height: 171.5%;
-    text-align: center;
-    padding: 5px;
+    text-align: justify;
   }
 
   .project-content {
@@ -341,8 +348,7 @@ footer .logo-wrapper {
   }
 
   .bio-image {
-    width: 100%;
-    border-radius: 5px;
+    width: 80%;
   }
 
   .card {
