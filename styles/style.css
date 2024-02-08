@@ -1,49 +1,95 @@
 /* latin-ext */
-@font-face {
+/* @font-face {
   font-family: 'Spartan';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/spartan/v18/l7gAbjR61M69yt8Z8w6FZf9WoBxdBrGFuV6HABTdfw.woff2)
-    format('woff2');
+  src: url(https://fonts.gstatic.com/s/spartan/v18/l7gAbjR61M69yt8Z8w6FZf9WoBxdBrGFuV6HABTdfw.woff2) format('woff2');
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
     U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
+} */
+
 /* latin */
-@font-face {
+/* @font-face {
   font-family: 'Spartan';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/spartan/v18/l7gAbjR61M69yt8Z8w6FZf9WoBxdBrGFuV6JABQ.woff2)
-    format('woff2');
+  src: url(https://fonts.gstatic.com/s/spartan/v18/l7gAbjR61M69yt8Z8w6FZf9WoBxdBrGFuV6JABQ.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
     U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
     U+FEFF, U+FFFD;
-}
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 body {
-  font-family: 'Spartan', sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  /* padding-left: 20%;
+  padding-right: 20%; */
 }
 
 .title {
-  font-size: 26px;
+  font-size: 18px;
   font-weight: bold;
-  color: #1aa7ec;
-  line-height: 129%;
-  text-shadow: 1px 1px 0 #1aa7ec, -1px -1px 0 #1aa7ec, 1px -1px 0 #1aa7ec,
-    -1px 1px 0 #1aa7ec;
+  color: #0e4444;
+  line-height: 12%;
 }
 
-.name-section-title {
-  font-size: 30px;
-  font-weight: 900;
-  color: #000080;
-  margin-bottom: 6%;
+.profile-section-title {
+  font-size: 25px;
+  font-weight: 700;
+  color: #41538f;
   margin-top: 10%;
-  text-shadow: 1px 1px 0 #000080, -1px -1px 0 #000080, 1px -1px 0 #000080,
-    -1px 1px 0 #000080;
 }
+
+.bio-image {
+  margin-top: 15%;
+  width: 250px;
+}
+
+.bio-description {
+  margin-top: 10%;
+  color: #41538f;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 15px;
+}
+
+.wrapper-section-1 {
+  margin-top: 7%;
+  min-height: 650px;
+}
+
+.content-title {
+  font-size: 15px;
+  color: #41538f;
+  font-weight: 700;
+  margin-top: 8px;
+}
+
+.content-sub-title {
+  font-size: 14px;
+  color: #41538f;
+  font-weight: 700;
+  margin-top: 8px;
+  text-decoration: underline;
+}
+
+.content {
+  font-size: 13.5px;
+  color: #41538f;
+  font-weight: normal;
+  line-height: 17px;
+}
+
+.indent {
+  margin-left: 30px;
+}
+
+/* ###################################################################### */
 
 .section-title {
   font-size: 20px;
@@ -51,27 +97,6 @@ body {
   color: #000080;
   margin-bottom: 6%;
   margin-top: 5%;
-  text-shadow: 1px 1px 0 #000080, -1px -1px 0 #000080, 1px -1px 0 #000080,
-    -1px 1px 0 #000080;
-}
-
-.section-list {
-  margin-top: 10%;
-  color: #000080;
-}
-
-.portfolio-title {
-  font-size: 18px;
-  color: #000080;
-  font-weight: 550;
-  line-height: 171.5%;
-}
-
-.content {
-  font-size: 16px;
-  color: #000080;
-  font-weight: 550;
-  line-height: 171.5%;
 }
 
 .project-content {
@@ -102,11 +127,12 @@ button .icon {
   font-weight: 900 !important;
   margin-top: 2%;
 }
+
 .navbar-light {
   background-color: #fff;
 }
 
-.navbar-light .navbar-nav .active > .nav-link {
+.navbar-light .navbar-nav .active>.nav-link {
   color: #1aa7ec !important;
 }
 
@@ -116,11 +142,6 @@ button .icon {
 
 .hidden-spacer {
   height: 56px;
-}
-
-.wrapper-section-1 {
-  margin-top: 8%;
-  min-height: 650px;
 }
 
 .wrapper-section-1 video {
@@ -141,11 +162,6 @@ button .icon {
   color: #1aa7ec;
   margin-top: 15px;
   margin-bottom: 15px;
-}
-
-.bio-image {
-  width: 360px;
-  border-radius: 15px;
 }
 
 footer {
@@ -341,7 +357,7 @@ footer .logo-wrapper {
     display: block !important;
   }
 
-.social-icon {
+  .social-icon {
     width: 20px;
     height: 20px;
   }
