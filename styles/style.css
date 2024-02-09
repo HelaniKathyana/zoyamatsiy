@@ -35,6 +35,7 @@ body {
 
 .profile-button {
   color: #41538f;
+  text-decoration: underline;
 }
 
 .wrapper-section-1 {
@@ -87,10 +88,9 @@ body {
 }
 
 .section-title {
-  font-size: 22px;
-  font-weight: 900;
+  font-size: 25px;
+  font-weight: 600;
   color: #142664;
-  margin-bottom: 2%;
 }
 
 .project-section {
@@ -106,8 +106,14 @@ body {
 .project-content {
   font-size: 14px;
   color: #142664;
-  line-height: 1.24999219em;
   text-align: justify;
+}
+
+.project-content-title {
+  font-size: 16px;
+  color: #142664;
+  text-align: justify;
+  font-weight: 500;
 }
 
 .social-content {
@@ -117,12 +123,17 @@ body {
 }
 
 .social-icon {
-  width: 25px;
-  height: 25px;
+  width: 30px;
+  height: 30px;
 }
 
 .back-button {
   color: #142664;
+  text-decoration: underline;
+}
+
+.project-section .row {
+  margin-top: 15px;
 }
 
 @media only screen and (max-width: 768px) {
