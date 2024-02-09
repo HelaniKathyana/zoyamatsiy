@@ -109,10 +109,14 @@ body {
   text-align: justify;
 }
 
+.project-content li {
+  line-height: 18px;
+  margin-bottom: 5px;
+}
+
 .project-content-title {
   font-size: 16px;
   color: #142664;
-  text-align: justify;
   font-weight: 500;
 }
 
