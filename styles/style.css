@@ -154,6 +154,14 @@ body {
     display: block !important;
   }
 
+  .section-title {
+    margin-top: 5%;
+  }
+
+  .project-image {
+    width: 100%;
+  }
+
   .social-icon {
     width: 20px;
     height: 20px;
